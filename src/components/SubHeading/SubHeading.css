@@ -1,0 +1,22 @@
+.SubHeading p {
+    font-size: 2rem;
+    font-family: var(--font-extra);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+}
+
+.SubHeading img {
+    margin-top: -10px;
+    width: 40%;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
